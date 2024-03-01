@@ -9,7 +9,7 @@ public class CameraController : MonoBehaviour
 
     public static CameraController instance;
 
-    [Range(-5,5)]
+    [Range(-5,6)]
     public float minModX, maxModX, minModY, maxModY;
     public float dampSpeed;
 
