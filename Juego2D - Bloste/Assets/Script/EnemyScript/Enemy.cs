@@ -9,6 +9,8 @@ public class Enemy : MonoBehaviour
     public float speed;
     public float knockbackForceX;
     public float knockbackForceY;
+    public float damageToGive;
+
 
 
     // Start is called before the first frame update
