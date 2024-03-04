@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
 
     public float health;
     public float maxHealth;
+    public Image healthImg;
     public bool isInmune;
     public float inmunityTime;
     public Blink material;
@@ -31,6 +33,8 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        healthImg.fillAmount = health/100;
+
         if (health > maxHealth)
         {
             health = maxHealth;
