@@ -56,6 +56,7 @@ MonoBehaviour:
   speed: 3
   knockbackForceX: 100
   knockbackForceY: 50
+  damageToGive: 0
 --- !u!114 &6572976564901813198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,9 +275,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8141296425786733645}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

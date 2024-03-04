@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -11,12 +12,14 @@ public class PlayerMovement : MonoBehaviour
     public float groundCheckRadius;
     public LayerMask whatIsGround;
     Animator anim;
+    
 
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        
     }
     void Update()
     {
